@@ -1,6 +1,14 @@
+:root {
+	/*colors*/
+	--black: #000000;
+	--beige: #f5f5dc;
+	--darkGrey: #a9a9a9;
+	--crimsonRed: #dc143c;
+}
+
 body {
-	background-color: #000000;
-	color: beige;
+	background-color: var(--black);
+	color: var(--beige);
 	text-align: center;
 	font-family: monospace;
 	font-size: 1.5rem;
@@ -10,25 +18,25 @@ h1 {
 	font-size: 3rem;
 }
 
-#inputContainer {
+#container {
 	margin: 21rem auto;
 }
 
 button {
 	padding: 1rem 2rem;
-	border: 0.3rem ridge darkgrey;
+	border: 0.3rem ridge var(--darkGrey);
 	border-radius: 1rem;
-	background-color: #000000;
-	color: beige;
+	background-color: var(--black);
+	color: var(--beige);
 	transition: 0.5s;
 }
 
 button:hover {
-	border: 0.3rem solid crimson;
+	border: 0.3rem solid var(--crimsonRed);
 }
 
 button:active {
-	background-color: crimson;
-	color: #000000;
-	border: 0.3rem solid #000;
+	background-color: var(--crimsonRed);
+	color: var(--black);
+	border: 0.3rem solid var(--black);
 }
