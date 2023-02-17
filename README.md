@@ -1,2 +1,2 @@
-# Calculadora-JS-B-sica
+# Calculadora JS B
 Calculadora básica das 4 operações principais
